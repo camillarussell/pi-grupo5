@@ -1,7 +1,7 @@
 const form = document.querySelector("form");
 const result = document.querySelector("#result");
 
-form.addEventListener("submit", bookSearch);
+form.addEventListener("submit", submitSearch);
 
 function displayBooks(data) {
   result.innerHTML = "";
@@ -12,7 +12,7 @@ function displayBooks(data) {
   });
 }
 
-function bookSearch(event) {
+function submitSearch(event) {
   event.preventDefault();
   result.innerHTML += `carregando...`;
 
