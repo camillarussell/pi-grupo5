@@ -3,7 +3,7 @@ const result = document.querySelector("#result");
 
 form.addEventListener("submit", submitSearch);
 
-function displayBooks(data) {
+function displayBooks(data) { //data é a resposta da API
   result.innerHTML = "";
   data.title.forEach((book) => {
     const bookId = book.isbn; // PAra usar quando for criar un link para os detalhes do livro
@@ -14,7 +14,7 @@ function displayBooks(data) {
 
 function submitSearch(event) {
   event.preventDefault();
-  result.innerHTML += `carregando...`;
+  result.innerHTML = `carregando...`;
 
   const book = event.target.book.value;
   searchBook(book, displayBooks);
