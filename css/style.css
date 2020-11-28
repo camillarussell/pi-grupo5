@@ -1,0 +1,44 @@
+header {
+  height: 80vh;
+  background: url(https://cdn.pixabay.com/photo/2016/08/24/16/20/books-1617327_960_720.jpg)
+    no-repeat center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2em;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+a {
+  position: relative;
+  display: inline-block;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 2em;
+  color: #fff;
+}
+&:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media all and (max-width: 800px) {
+  ul {
+    flex-grow: 1;
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
