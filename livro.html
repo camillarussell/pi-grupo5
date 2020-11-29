@@ -31,10 +31,13 @@
       </header>
       <section class="fundoPesquisa">
         <form class="form-inline active-grey-2 pesquisarLivro">
-          <input class="form-control form-control-sm mr-3 w-75 campoPesquisar" type="text" placeholder=" Nome do livro"
+          <input name="book" class="form-control form-control-sm mr-3 w-75 campoPesquisar" type="text" placeholder=" Nome do livro"
             aria-label="Search">
           <button class="btn btn-elegant btn-rounded btn-sm my-0 botaoPesquisar" type="submit">Pesquisar</button>
         </form>
+        <div id="result">
+
+        </div>
       </section>
     <!-- Da API teremos acesso ao:
     -Titulo
@@ -48,6 +51,8 @@
     </footer>
     
     <script src="js/main.js"></script>
+    <script src="js/api/searchBook.js"></script>
+    <script src="js/busca-livro.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
