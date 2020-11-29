@@ -8,7 +8,7 @@ function displayBooks(data) { //data é a resposta da API
   data.title.forEach((book) => {
     const bookId = book.isbn; // PAra usar quando for criar un link para os detalhes do livro
     const bookImage = book["@uri"];
-    result.innerHTML += `<img src="${bookImage}">`;
+    result.innerHTML += `<a href="detalhe-livro.html?bookId=${bookId}"><img src="${bookImage}"></a>`;
   });
 }
 
