@@ -53,3 +53,28 @@ a {
     width: 100%;
   }
 }
+
+.pesquisarLivro {
+  width: 50%;
+  margin: auto auto;
+  padding: 250px 0px;
+  justify-content: center;
+  z-index: 2;
+}
+
+.campoPesquisar {
+  height: 50px;
+  border-radius: 18px;
+  font-size: 18px;
+}
+.botaoPesquisar {
+  background-color: #A6B1E1;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.active-grey-2 input[type=text]:focus:not([readonly]) {
+  border: 2px solid #CACFD6;
+  box-shadow: 0 2px 0 0 #CACFD6;
+}
