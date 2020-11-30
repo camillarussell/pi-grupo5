@@ -1,15 +1,41 @@
 .fundoPesquisa {
   height: 80vh;
-  background-image: url("https://cdn.pixabay.com/photo/2016/08/24/16/20/books-1617327_960_720.jpg");
+  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .fundoIndex {
   height: 80vh;
-  background-image: url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
+  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.container-abertura{
+  background-color: rgba(137, 188, 254, 0.40);
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+button.acesso{
+  font-size: 0.35em;
+  text-align:center;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+a.acesso{
+  color: black;
+}
+
+.botaoForm{
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: black;
 }
 
 .logoNav{
@@ -17,14 +43,7 @@
   margin-right: 5%;
 }
 
-.aberturaSite{
-  background-color: rgba(202, 207, 214, 0.7);
-  padding: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.h1Index{
+.hIndex{
   text-align: center;
 }
 
@@ -63,12 +82,13 @@ a {
   padding-bottom: 5vh;
   height: 80vh;
   background-color: #cae5ff;
-  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2015/06/02/12/59/narrative-794978_960_720.jpg");
+  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .articleContato{
-  background-color: rgba(202, 207, 214, 0.8);
+  background-color:  rgba(137, 188, 254, 0.40);
   padding: 2%;
 }
 
@@ -87,6 +107,12 @@ a {
   }
 }
 
+.fundoAutores{
+  height: 80vh;
+  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .pesquisarLivro {
   width: 50%;
   margin: auto auto;
