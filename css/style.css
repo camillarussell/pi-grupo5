@@ -1,6 +1,10 @@
 .fundoPesquisa {
   height: 80vh;
-  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -9,15 +13,19 @@
 
 .fundoIndex {
   height: 80vh;
-  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   height: 86%;
 }
 
-.container-abertura{
-  background-color: rgba(137, 188, 254, 0.40);
+.container-abertura {
+  background-color: rgba(137, 188, 254, 0.4);
   padding: 1%;
   margin-left: 5%;
   margin-right: 5%;
@@ -27,30 +35,30 @@
   width: 100%;
 }
 
-button.acesso{
+button.acesso {
   font-size: 0.35em;
-  text-align:center;
+  text-align: center;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.4);
   border-color: rgba(255, 255, 255, 0.4);
 }
 
-a.acesso{
+a.acesso {
   color: black;
 }
 
-.botaoForm{
+.botaoForm {
   background-color: rgba(255, 255, 255, 0.4);
   border-color: rgba(255, 255, 255, 0.4);
   color: black;
 }
 
-.logoNav{
+.logoNav {
   width: 5%;
   margin-right: 5%;
 }
 
-.hIndex{
+.hIndex {
   text-align: center;
 }
 
@@ -74,7 +82,7 @@ a {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.copyright{
+.copyright {
   text-align: center;
   vertical-align: middle;
   margin-top: auto;
@@ -82,26 +90,30 @@ a {
   width: 100%;
 }
 
-.pForm{
+.pForm {
   text-align: center;
 }
 
-.fundoContato{
+.fundoContato {
   padding-left: 5vw;
   padding-right: 5vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
   height: 80vh;
   background-color: #cae5ff;
-  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   height: 86%;
 }
 
-.articleContato{
-  background-color:  rgba(137, 188, 254, 0.40);
+.articleContato {
+  background-color: rgba(137, 188, 254, 0.4);
   padding: 2%;
   margin-top: auto;
   margin-bottom: auto;
@@ -123,9 +135,13 @@ a {
   }
 }
 
-.fundoAutores{
+.fundoAutores {
   height: 80vh;
-  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -145,18 +161,19 @@ a {
   font-size: 18px;
 }
 .botaoPesquisar {
-  background-color: #A6B1E1;
+  background-color: #a6b1e1;
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
 
-.active-grey-2 input[type=text]:focus:not([readonly]) {
-  border: 2px solid #CACFD6;
-  box-shadow: 0 2px 0 0 #CACFD6;
+.active-grey-2 input[type="text"]:focus:not([readonly]) {
+  border: 2px solid #cacfd6;
+  box-shadow: 0 2px 0 0 #cacfd6;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -167,4 +184,18 @@ header {
 footer {
   display: flex;
   height: 5%;
+}
+
+#result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#result a {  
+  padding: .5em;
+}
+
+#result img {
+  width: 150px;
 }
