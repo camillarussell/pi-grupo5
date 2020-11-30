@@ -3,6 +3,8 @@
   background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  height: 86%;
 }
 
 .fundoIndex {
@@ -10,6 +12,8 @@
   background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  height: 86%;
 }
 
 .container-abertura{
@@ -18,6 +22,9 @@
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
 }
 
 button.acesso{
@@ -69,6 +76,10 @@ a {
 
 .copyright{
   text-align: center;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
 }
 
 .pForm{
@@ -85,11 +96,16 @@ a {
   background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  height: 86%;
 }
 
 .articleContato{
   background-color:  rgba(137, 188, 254, 0.40);
   padding: 2%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
 }
 
 @media all and (max-width: 800px) {
@@ -112,6 +128,8 @@ a {
   background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  height: 86%;
 }
 .pesquisarLivro {
   width: 50%;
@@ -136,4 +154,17 @@ a {
 .active-grey-2 input[type=text]:focus:not([readonly]) {
   border: 2px solid #CACFD6;
   box-shadow: 0 2px 0 0 #CACFD6;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  height: 9%;
+}
+
+footer {
+  display: flex;
+  height: 5%;
 }
