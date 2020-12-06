@@ -21,7 +21,7 @@ a {
   display: inline-block;
   padding: 1em;
   text-decoration: none;
-  font-size: 2em; 
+  font-size: 2em;
 }
 
 /* &:hover {
@@ -93,7 +93,7 @@ footer {
   color: #dcd6f7;
   width: 16rem;
   height: 16rem;
-  margin: 1.5rem;  
+  margin: 1.5rem;
 }
 
 .btn-azul a:hover {
@@ -110,7 +110,7 @@ footer {
   padding: 1.2rem;
 }
 
-.informacoes h2 {  
+.informacoes h2 {
   color: #6f8ab7;
 }
 
@@ -127,6 +127,8 @@ footer {
   background-repeat: no-repeat;
   display: flex;
   height: 86%;
+  justify-content: center;
+  align-items: center;
   /* verificar que tem dois height */
 }
 
@@ -142,6 +144,53 @@ footer {
 
 #result img {
   width: 150px;
+}
+
+/* ---DETALHE DO LIVRO--- */
+
+#card-result {
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  border-radius: 1rem;
+  width: 40%;
+  height: 70vh;
+  border-left: solid 0.4rem gray;
+  border-bottom: solid 0.4rem gray;
+}
+
+.left-card {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  padding: 1rem;
+  padding-top: 1.5rem;
+  border-right: solid 0.1rem #424874;
+}
+
+.right-card {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: #6f8ab7;
+  width: 60%;
+  height: 100%;
+}
+
+.right-card img {
+  width: 80%;
+  border-radius: 0.7rem;
+}
+
+.left-card h2 {
+  color: #424874;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#title-card {
+  color: black;
 }
 
 /* ---BUSCA POR AUTOR--- */

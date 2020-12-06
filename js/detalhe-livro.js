@@ -5,12 +5,14 @@ const cardResult = document.querySelector("#card-result");
 function meuCallback(bookData) {
   console.log(bookData);
   cardResult.innerHTML = `
-<div>
-<h2>Título: ${bookData.titleweb}</h2>
+<div class="left-card">
+<h2><span id="title-card">Título:</span> ${bookData.titleweb}</h2>
+<p><strong>Autor:</strong> ${bookData.authorweb}</p>
+<p><strong>Data de publicação</strong> ${bookData.onsaledate}</p>
+<p>${bookData.pages} páginas</p>
+</div>
+<div class="right-card">
 <img src="${bookData["@uri"]}">
-<p>Data de lançamento: ${bookData.onsaledate}</p>
-<p>Autor: ${bookData.author}</p>
-<p>${bookData.pages} páginas.</p>
 </div>
 `;
 }
