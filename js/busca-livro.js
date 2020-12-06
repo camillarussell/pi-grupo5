@@ -19,3 +19,4 @@ function submitSearch(event) {
   const book = event.target.book.value;
   searchBook(book, displayBooks);
 }
+
