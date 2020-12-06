@@ -94,7 +94,11 @@ footer {
   color: #dcd6f7;
   width: 16rem;
   height: 16rem;
-  margin: 1.5rem;
+  margin: 1.5rem;  
+}
+
+.btn-azul a:hover {
+  text-decoration: none;
 }
 
 .btn-azul h3 {
