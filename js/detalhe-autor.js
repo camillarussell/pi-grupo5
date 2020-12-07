@@ -1,13 +1,15 @@
 const query = new URLSearchParams(location.search);
 const authorId = query.get("authorId");
-const cardResult = document.querySelector("#card-result");
+const authorResult = document.querySelector("#author-result");
 
 function meuCallback(authorData) {
   console.log(authorData);
-  cardResult.innerHTML = `
-<div id="author-card">
+  authorResult.innerHTML = `
+<div class="top-card">
 <h2>${authorData.authordisplay}</h2>
-<p><strong>Sobre o autor (apenas em inglês):</strong>
+</div>
+<div class="botton-card">
+<p><strong>Sobre o autor:</strong>
 <br/>
 ${authorData.spotlight}</p>
 </div>
