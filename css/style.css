@@ -196,6 +196,12 @@ footer {
 
 /* ---BUSCA POR AUTOR--- */
 
+/* ---DETALHE DO AUTOR--- */
+
+#author-card {
+  margin: 2rem;;
+}
+
 /* ---CONTATO--- */
 
 .fundoContato {
