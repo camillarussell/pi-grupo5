@@ -24,6 +24,11 @@ a {
   font-size: 2em;
 }
 
+.logoNav {
+  width: 5%;
+  margin-right: 5%;
+}
+
 /* &:hover {
   color: rgba(255, 255, 255, 0.7);
 } */
@@ -42,6 +47,10 @@ footer {
 }
 
 /* ---HOME--- */
+
+.hIndex {
+  text-align: center;
+}
 
 .fundoIndex {
   overflow: hidden;
@@ -196,6 +205,40 @@ footer {
 
 /* ---BUSCA POR AUTOR--- */
 
+.fundoAutores {
+  height: 80vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 86%;
+}
+
+.campoPesquisar {
+  height: 50px;
+  border-radius: 18px;
+  font-size: 18px;
+}
+
+.pesquisarLivro {
+  width: 50%;
+  margin: auto auto;
+  padding: 250px 0px;
+  justify-content: center;
+  z-index: 2;
+}
+
+.botaoPesquisar {
+  background-color: #a6b1e1;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
 /* ---DETALHE DO AUTOR--- */
 
 #author-result {
@@ -232,7 +275,7 @@ footer {
 .fundoContato {
   padding-left: 5vw;
   padding-right: 5vw;
-  padding-top: 5vh;
+  padding-top: 2vh;
   padding-bottom: 5vh;
   height: 80vh;
   background-color: #cae5ff;
@@ -256,6 +299,16 @@ footer {
   width: 100%;
 }
 
+.botaoForm {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: black;
+}
+
+.pForm {
+  text-align: center;
+}
+
 /* ---FALTA ORGANIZAR--- */
 
 /* button.acesso {
@@ -269,57 +322,6 @@ footer {
 a.acesso {
   color: black;
 } */
-
-.botaoForm {
-  background-color: rgba(255, 255, 255, 0.4);
-  border-color: rgba(255, 255, 255, 0.4);
-  color: black;
-}
-
-.logoNav {
-  width: 5%;
-  margin-right: 5%;
-}
-
-.hIndex {
-  text-align: center;
-}
-
-.pForm {
-  text-align: center;
-}
-
-.fundoAutores {
-  height: 80vh;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
-    url("https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  height: 86%;
-}
-.pesquisarLivro {
-  width: 50%;
-  margin: auto auto;
-  padding: 250px 0px;
-  justify-content: center;
-  z-index: 2;
-}
-
-.campoPesquisar {
-  height: 50px;
-  border-radius: 18px;
-  font-size: 18px;
-}
-.botaoPesquisar {
-  background-color: #a6b1e1;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-}
 
 /* .active-grey-2 input[type="text"]:focus:not([readonly]) {
   border: 2px solid #cacfd6;
