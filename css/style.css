@@ -107,6 +107,7 @@ footer {
 
 .btn-azul a:hover {
   text-decoration: none;
+  background-color: #4e4e4e;
 }
 
 .btn-azul h3 {
@@ -165,8 +166,9 @@ footer {
   border-radius: 1rem;
   width: 40%;
   height: 70vh;
-  border-left: solid 0.4rem gray;
-  border-bottom: solid 0.4rem gray;
+  box-shadow: 5px 5px 10px #4e4e4e;
+  -webkit-box-shadow: 5px 5px 10px #4e4e4e;
+  -moz-box-shadow: 5px 5px 10px #4e4e4e;
 }
 
 .left-card {
@@ -240,6 +242,19 @@ footer {
   color: white;
 }
 
+#link-author {
+  margin: 1rem;  
+  color: #424874;
+  font-size: 1.5rem ;
+  border: .1rem solid #424874;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+#link-author:hover {
+  background-color: #a6b1e1;
+}
+
 /* ---DETALHE DO AUTOR--- */
 
 #author-result {
@@ -249,8 +264,9 @@ footer {
   border-radius: 1rem;
   /* width: 40%; */
   height: 70vh;
-  border-left: solid 0.4rem gray;
-  border-bottom: solid 0.4rem gray;
+  box-shadow: 5px 5px 10px #4e4e4e;
+  -webkit-box-shadow: 5px 5px 10px #4e4e4e;
+  -moz-box-shadow: 5px 5px 10px #4e4e4e;
 }
 
 .top-card {

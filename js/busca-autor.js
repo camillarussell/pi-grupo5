@@ -9,7 +9,7 @@ function displayAuthors(data) { //data é a resposta da API
   data.author.forEach((author) => {
     const authorId = author.authorid;
     const authorName = author.authordisplay;
-    result.innerHTML += `<a href="detalhe-autor.html?authorId=${authorId}">${authorName}</a>`;
+    result.innerHTML += `<a id="link-author" href="detalhe-autor.html?authorId=${authorId}">${authorName}</a>`;
   });
 }
 
