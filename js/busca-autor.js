@@ -15,7 +15,8 @@ function displayAuthors(data) { //data é a resposta da API
 
 function submitSearch(event) {
   event.preventDefault();
-  result.innerHTML = `carregando...`;
+  result.innerHTML = `<p class="loading">Carregando...</p>
+  <img class="loading" src="./img/loading.gif"></img>`;
 
   const author = event.target.author.value;
   searchAuthor(author, displayAuthors);

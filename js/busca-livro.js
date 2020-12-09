@@ -14,7 +14,8 @@ function displayBooks(data) { //data é a resposta da API
 
 function submitSearch(event) {
   event.preventDefault();
-  result.innerHTML = `carregando...`;
+  result.innerHTML = `<p class="loading">Carregando...</p>
+  <img class="loading" src="./img/loading.gif"></img>`;
 
   const book = event.target.book.value;
   searchBook(book, displayBooks);

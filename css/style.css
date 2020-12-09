@@ -255,6 +255,13 @@ footer {
   background-color: #a6b1e1;
 }
 
+.loading {
+  font-size: 1.3rem;
+  padding: .3rem;
+  width: 100%;
+  text-align: center;
+}
+
 /* ---DETALHE DO AUTOR--- */
 
 #author-result {
