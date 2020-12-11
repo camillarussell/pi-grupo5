@@ -29,10 +29,6 @@ a {
   margin-right: 5%;
 }
 
-/* &:hover {
-  color: rgba(255, 255, 255, 0.7);
-} */
-
 footer {
   display: flex;
   height: 5%;
@@ -334,25 +330,6 @@ footer {
   text-align: center;
 }
 
-/* ---FALTA ORGANIZAR--- */
-
-/* button.acesso {
-  font-size: 0.35em;
-  text-align: center;
-  margin: auto;
-  background-color: rgba(255, 255, 255, 0.4);
-  border-color: rgba(255, 255, 255, 0.4);
-}
-
-a.acesso {
-  color: black;
-} */
-
-/* .active-grey-2 input[type="text"]:focus:not([readonly]) {
-  border: 2px solid #cacfd6;
-  box-shadow: 0 2px 0 0 #cacfd6;
-} */
-
 /* ---MEDIA QUERIES--- */
 
 @media all and (max-width: 800px) {
@@ -370,8 +347,7 @@ a.acesso {
   }
 
   .fundoIndex {
-    height: 100%;
-    /* verificar que tem dois height */
+    height: 100%;    
   }
   
 }
@@ -405,6 +381,10 @@ a.acesso {
     width: 100%;
   }
 
+  .informacoes h2 {
+    font-size: 1.8rem;
+  }
+
   #author-result {
     width: 100%;
     margin: 15% 5%;
@@ -415,8 +395,25 @@ a.acesso {
     height: auto;
   }
 
-  .top-card {
-    
+  #card-result {    
+    display: block;  
+    width: 100%;
+    margin: 15% 5%;
+    height: auto;    
   }
 
+  .left-card {    
+    width: 100%;    
+  }
+
+  .left-card h2 {    
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .right-card {    
+    width: 100%;
+    padding: 1rem;    
+  }
+  
 }
